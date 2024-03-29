@@ -6,7 +6,6 @@ const config = {
     url: 'jdbc:mysql://localhost:3306/liquibase_db',
     username: 'root',
     password: 'new_password',
-    logLevel: 'DEBUG', 
 };
 
 const liquibase = new Liquibase(config);

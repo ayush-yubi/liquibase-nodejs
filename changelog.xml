@@ -18,12 +18,4 @@
         </createTable>
     </changeSet>
 
-    <changeSet id="2" author="Ayush">
-        <sql>INSERT INTO test_table (test_id, test_column) VALUES (1, 100);</sql>
-    </changeSet>
-
-    <changeSet id="3" author="Ayush">
-        <sql>INSERT INTO test_table (test_id, test_column) VALUES (2, 100);</sql>
-    </changeSet>
-
 </databaseChangeLog>
